@@ -1,0 +1,103 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background:linear-gradient(rgb(212, 207, 207),rgb(46, 45, 45));
+}
+header{
+  background-color: cornflowerblue;
+  padding: 15px ;
+  margin: 10px 15px;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+main{
+  background-color: lightblue;
+  min-height: 300px;
+  padding: 15px ;
+  margin: 10px 15px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 1px solid green;
+  text-align: center;
+
+}
+.caja1{
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;  background-color: rgb(67, 139, 115);
+
+}
+.opciones{
+  width: 60%;
+  display: grid;
+  justify-content: center;
+}
+input{
+  width: 290px;
+  padding: 3px;
+  margin: 9px 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+.botones{
+  background-color: pink;
+  width: 40%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+}
+.btn{
+  width: 80px;
+  padding: 5px;
+}
+.caja2{
+  background-color: rgb(16, 75, 55);
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+  min-height: 200px;
+  text-align: center;
+}
+.contenedor{
+  background-color: greenyellow;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 4px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 4px 0;
+}
+.contenedor:hover{
+  transform: scale(1,1.4);
+  background-color: rgb(14, 151, 67);
+}
+h4{
+  width: 35%;
+}
+.nTelefono{
+  width: 20%;
+}
+.nEdad{
+  width: 40%;
+  overflow: hidden;
+}
+.borrarU{
+  background-color: black;
+  color: white;
+  border-radius:50% ;
+  padding: 4px;
+}
+.borrarU:hover{
+  background-color: red;
+  cursor: pointer;
+}
