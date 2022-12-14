@@ -101,3 +101,57 @@ h4{
   background-color: red;
   cursor: pointer;
 }
+@media(max-width:400px){
+  .caja1{
+    width: 100%;
+    display: grid;
+  }
+  .opciones{
+    width: 100%;
+    justify-content: center;
+  }
+  .botones{
+    background-color: pink;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+  }input{
+    width: 100%;
+    padding: 3px;
+    margin: 9px auto;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .btn{
+    margin: 3px auto;
+    width: 40%;
+    padding: 0;
+  }
+  .contenedor{
+    background-color: greenyellow;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 4px 0;
+  }
+  h4{
+    width: 50%;
+  }
+  .nTelefono{
+    width: 50%;
+  }
+  .nEdad{
+    width: 100%;
+  }
+  
+}
