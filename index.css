@@ -101,7 +101,7 @@ h4{
   background-color: red;
   cursor: pointer;
 }
-@media(max-width:400px){
+@media screen and (max-width:500px){
   .caja1{
     width: 100%;
     display: grid;
