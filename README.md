@@ -6,7 +6,7 @@
 :construction: Proyecto en construcción :construction:
 </h4>
    <a>vista de proyecto</a>
-   <p>esperandpo</a>
+   <p>https://eosorto.github.io/proyect.name/</a>
    <h2>AGRADECIMIENTOS ESPECIALES SIN SU AYUDA NO FUERA POSIBLE</h2>
    <p>https://www.youtube.com/@soyjab/featured</p>
 <p>https://www.youtube.com/@akusnet</p>
