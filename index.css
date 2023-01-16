@@ -3,10 +3,10 @@
   margin: 0;
 }
 body{
-  background:linear-gradient(rgb(212, 207, 207),rgb(46, 45, 45));
+  background:linear-gradient(rgb(231, 230, 213),rgb(46, 45, 45));
 }
 header{
-  background-color: cornflowerblue;
+  background-color: rgba(72, 87, 68, 0.397);
   padding: 15px ;
   margin: 10px 15px;
   text-align: center;
@@ -14,13 +14,13 @@ header{
   border-radius: 10px;
 }
 main{
-  background-color: lightblue;
+  background-color: gray;
   min-height: 300px;
   padding: 15px ;
   margin: 10px 15px;
   border-radius: 10px;
   box-sizing: border-box;
-  border: 1px solid green;
+  border: 1px solid BLACK;
   text-align: center;
 
 }
@@ -28,8 +28,7 @@ main{
   display: flex;
   padding: 10px;
   box-sizing: border-box;
-  border-radius: 5px;  background-color: rgb(67, 139, 115);
-
+  border-radius: 5px;  
 }
 .opciones{
   width: 60%;
@@ -44,7 +43,7 @@ input{
   border-radius: 5px;
 }
 .botones{
-  background-color: pink;
+  background-color: rgb(172, 169, 169);
   width: 40%;
   text-align: center;
   display: flex;
@@ -58,15 +57,16 @@ input{
   padding: 5px;
 }
 .caja2{
-  background-color: rgb(16, 75, 55);
+  background-color: rgb(15, 20, 19);
   margin: 10px auto;
   padding: 10px;
   border-radius: 10px;
   min-height: 200px;
   text-align: center;
+  color: WHITE;
 }
 .contenedor{
-  background-color: greenyellow;
+  background-color: rgb(75, 80, 69);
   width: 100%;
   display: flex;
   text-align: center;
@@ -79,7 +79,7 @@ input{
 }
 .contenedor:hover{
   transform: scale(1,1.4);
-  background-color: rgb(14, 151, 67);
+  background-color: rgb(25, 70, 41);
 }
 h4{
   width: 35%;
@@ -111,7 +111,7 @@ h4{
     justify-content: center;
   }
   .botones{
-    background-color: pink;
+    background-color: rgb(95, 91, 91);
     width: 100%;
     text-align: center;
     display: flex;
@@ -132,7 +132,7 @@ h4{
     padding: 0;
   }
   .contenedor{
-    background-color: greenyellow;
+    background-color: rgb(53, 56, 48);
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -153,5 +153,8 @@ h4{
   .nEdad{
     width: 100%;
   }
-  
+  .contenedor:hover{
+    transform: scale(1,1.2);
+    background-color: rgb(25, 70, 41);
+  }
 }
